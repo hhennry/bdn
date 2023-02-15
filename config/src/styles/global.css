@@ -1,1 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&display=swap');
+:root {
+  /* Color`s */
+  --BDN-F7dYeRX: #1f1f1f;
+  --BDN-NC4b6FN: #c7c7c7;
+  --BDN-HJuZYfg: #ff975c;
+  --BDN-AIXmYh8: #e0661f;
+  --BDN-EvxJAEp: #454545;
+  --BDN-W4NKkze: #b4b4b4;
+  --BDN-A9i4EOr: #f4f4f4;
+  --BDN-XKrx3bv: #62c6ff;
+  --BDN-BI49nGZ: #ff0000;
+  /* Font`s */
+  --BDN-Pw8VAvt: 1rem 500 ;
+  --BDN-YjWGdLn:;
+  --BDN-B5MwXOH:;
+  --BDN-FltEklF:;
+  --BDN-VmuLuMl:;
+  --BDN-NGo2LF3:;
+  --BDN-M4lOE3z:;
+  --BDN-QGeI0N4:;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--BDN-A9i4EOr) var(--BDN-F7dYeRX);
+}
+
+.bdn {
+  width: 100%;
+  height: auto;
+}
+
+.bdn {
+  background: var(--BDN-A9i4EOr);
+  /* font: var(--BDN-); */
+}
+
+/* .bdn .main .pad,
+.bdn .main.pad {
+  padding: 0.8rem 1rem;
+} */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--BDN-F7dYeRX);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--BDN-A9i4EOr);
+  border-radius: 20px;
+  border: 4px solid var(--BDN-F7dYeRX);
+}
+
+:focus-visible {
+  outline: 2px dashed var(--BDN-AIXmYh8);
+  color: var(--BDN-AIXmYh8);
+}
+
+::selection {
+  background-color: var(--BDN-A9i4EOr);
+  color: var(--BDN-EvxJAEp);
+}
+
+button,
+img,
+svg,
+.bdn .footer,
+.bdn .header {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.bdn ._div {
+  border: 1px solid var(--BDN-A9i4EOr);
+}
+
+.bdn h2 {
+  /* font: var(--BDN-begINbcw); */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.bdn h3 {
+  /* font: var(--BDN-huM2BMzY); */
+  font-size: 1.7rem;
+}
+
+.bdn h4 {
+  /* font: var(--BDN-uMyAhDfM); */
+  font-size: 1.2rem;
+}
+
+.bdn h5 {
+  /* font: var(--BDN-fz6SVhcM); */
+}
+
+/* Header */
+.bdn .header {
+  display: flex;
+  align-items: center;
+
+  background-color: var(--BDN-F7dYeRX);
+  color: var(--BDN-W4NKkze);
+}
+
+.bdn .header a {
+  font: var(--BDN-Pw8VAvt);
+  color: var(--BDN-W4NKkze);
+  text-decoration: none;
+}
+
+.bdn .header ._WQ8324 {
+  margin-left: auto;
+  margin-right: auto;
+}
